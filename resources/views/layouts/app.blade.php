@@ -42,9 +42,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('home') }}">Dashboard</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('invoice.index') }}">Invoices</a>
-                        </li>
                         </li>
                     </ul>
 

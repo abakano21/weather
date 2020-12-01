@@ -20,4 +20,3 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/invoices', [App\Http\Controllers\InvoiceController::class, 'index'])->name('invoice.index');

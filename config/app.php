@@ -165,9 +165,6 @@ return [
         /*
          * Package Service Providers...
          */
-        \App\Repositories\Invoice\InvoiceRepositoryServiceProvider::class,
-        \App\Services\Invoice\InvoiceServiceProvider::class,
-
         \App\Repositories\History\HistoryRepositoryServiceProvider::class,
         \App\Services\History\HistoryServiceProvider::class,
 

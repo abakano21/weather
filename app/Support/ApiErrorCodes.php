@@ -8,16 +8,16 @@ class ApiErrorCodes
 
     const ALL_ERRORS = [
         'TRANSFORMER_ERRORS' => [
-            'INVOICES' => 9910,
+            'HISTORIES' => 9910,
         ],
         'GENERAL_ERRORS' => [
         ],
         'LOGIN_ERRORS' => [
             'INVALID_TOKEN' => 2002,
         ],
-        'INVOICE_ERRORS' => [
+        'HISTORY_ERRORS' => [
             'NO_EVENTS' => 5001,
-            'INVOICE_NOT_FOUND' => 5002,
+            'HISTORY_NOT_FOUND' => 5002,
         ],
     ];
 
